@@ -9,3 +9,14 @@ C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.Assem
 C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.dll
 C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.pdb
 C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\video05.mp4
+E:\Github\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.deps.json
+E:\Github\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.runtimeconfig.json
+E:\Github\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.runtimeconfig.dev.json
+E:\Github\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.dll
+E:\Github\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.pdb
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.csprojAssemblyReference.cache
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.csproj.CoreCompileInputs.cache
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.AssemblyInfoInputs.cache
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.AssemblyInfo.cs
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.dll
+E:\Github\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.pdb

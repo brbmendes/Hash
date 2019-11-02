@@ -62,27 +62,25 @@ namespace Hash
 
         private static void ExecutaHash()
         {
-            /**Obter os tamanhos do arquivo*/
-
-            //Carrega o arquivo do video
+            //Carrega o arquivo do video (em bytes)
             var bytesVideo = File.ReadAllBytes(_nomeVideo);
 
-            //Tamanho do video em bytes
+            //Obtem o tamanho do video em bytes
             int tamanhoVideo = bytesVideo.Length;
 
-            //Numero de blocos inteiros do video
+            //Obtem o numero de blocos inteiros do video
             int numBlocosVideo = tamanhoVideo / _tamanhoBloco;
 
-            //Numero de bytes do ultimo bloco
+            //Obtem o numero de bytes do ultimo bloco
             int numBytesUltimoBlocoVideo = tamanhoVideo % _tamanhoBloco;
 
-            //Atualiza o numero de blocos
+            //Atualiza o numero de blocos, contando o ultimo bloco
             if ((tamanhoVideo % _tamanhoBloco) > 0)
             {
                 numBlocosVideo++;
             }
 
-            //Cria arquivo para armazenar o video em formato de bytes
+            //Cria um arquivo para armazenar o video em formato de bytes
             byte[][] video = new byte[numBlocosVideo][];
 
             //Inicializa o arquivo que vai receber o video
@@ -107,7 +105,7 @@ namespace Hash
             fs.Close();
 
             /**Hash*/
-            //Iniciliza variaveis
+            //Inicializa a matriz de hashes e o SHA-256
             byte[][] hashes = new byte[numBlocosVideo][];
             SHA256 sha256 = SHA256Managed.Create();
 
@@ -116,9 +114,11 @@ namespace Hash
             //Do final para o inicio do arquivo
             for (int index = video.Length - 1; index > 0; index--)
             {
+                // Caso o trecho não tenha o numero de bits minimo do SHA-256
+                // ele e completado automaticamente
                 hashes[index] = sha256.ComputeHash(video[index]);
 
-                //Concatena hash do bloco atual com o bloco anterior
+                //Concatena o hash do bloco atual com o bloco anterior
                 byte[] aux = new byte[video[index - 1].Length + hashes[index].Length];
                 Array.Copy(video[index - 1], 0, aux, 0, video[index - 1].Length);
                 Array.Copy(hashes[index], 0, aux, video[index - 1].Length, hashes[index].Length);
