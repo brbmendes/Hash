@@ -1,0 +1,11 @@
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.deps.json
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.runtimeconfig.json
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.runtimeconfig.dev.json
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.dll
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\Hash.pdb
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.csprojAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.AssemblyInfo.cs
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.dll
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\obj\Debug\netcoreapp2.1\Hash.pdb
+C:\Users\Rodrigo\Desktop\Bruno\temp\Hash\Hash\bin\Debug\netcoreapp2.1\video05.mp4
