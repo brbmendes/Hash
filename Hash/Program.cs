@@ -114,7 +114,7 @@ namespace Hash
             //Do final para o inicio do arquivo
             for (int index = video.Length - 1; index > 0; index--)
             {
-                // Caso o trecho não tenha o numero de bits minimo do SHA-256
+                // Caso o trecho não tenha o numero de bytes minimo do SHA-256
                 // ele e completado automaticamente
                 hashes[index] = sha256.ComputeHash(video[index]);
 
